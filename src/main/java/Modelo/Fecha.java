@@ -12,12 +12,12 @@ public class Fecha {
 
     private int dia;
     private int mes;
-    private int anio;
+    private int año;
 
-    public Fecha(int dia, int mes, int anio) {
+    public Fecha(int dia, int mes, int año) {
         this.dia = dia;
         this.mes = mes;
-        this.anio = anio;
+        this.año = año;
     }
 
     public int getDia() {
@@ -37,15 +37,15 @@ public class Fecha {
     }
 
     public int getAnio() {
-        return anio;
+        return año;
     }
 
     public void setAnio(int anio) {
-        this.anio = anio;
+        this.año = año;
     }
 
     @Override
     public String toString() {
-        return dia + "/" + mes + "/" + anio;
+        return dia + "/" + mes + "/" + año;
     }
 }
