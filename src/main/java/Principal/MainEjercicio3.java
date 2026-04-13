@@ -3,14 +3,15 @@
  */
 
 package Principal;
-
+import Vista.VistaBanco;
 /**
  *
  * @author HP
  */
-public class Corte2_3Actividad {
+public class MainEjercicio3 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        VistaBanco vista = new VistaBanco();
+        vista.setVisible(true);
     }
 }
