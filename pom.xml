@@ -29,6 +29,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <exec.mainClass>com.mycompany.corte2_3actividad.Corte2_3Actividad</exec.mainClass>
+        <exec.mainClass>Principal.MainEjercicio3</exec.mainClass>
     </properties>
 </project>
